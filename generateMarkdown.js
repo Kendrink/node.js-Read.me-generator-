@@ -32,14 +32,7 @@ function getLicense(value) {
 
 
 
-// function to initalize the beginning of the questions 
-function init() {
-    inquirer.prompt(questions).then((data) => {
-        console.log(JSON.stringify(data, null, " "));
-        data.getLicense = getLicense(data.license);
-        writeToFile("./example/README.md", data);
-    });
-}
+/
 
 // call the function to initalize the beginning of the questions 
 init();
