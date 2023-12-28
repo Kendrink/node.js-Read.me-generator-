@@ -32,12 +32,6 @@ function getLicense(value) {
 
 
 
-/
-
-// call the function to initalize the beginning of the questions 
-init();
-
-
 
 
 
